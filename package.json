@@ -1,0 +1,56 @@
+{
+  "name": "es-slider",
+  "version": "1.0.0",
+  "description": "ES slider with responsive option",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack -p",
+    "lint": "eslint --fix src --ext js,es6",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tufail/es-slider.git"
+  },
+  "keywords": [
+    "smooth",
+    "touch",
+    "slick",
+    "horizontal",
+    "slider"
+  ],
+  "author": "Mohammed Tufail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tufail/es-slider/issues"
+  },
+  "homepage": "https://github.com/tufail/es-slider#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.24.6",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^1.0.0",
+    "es6-promise": "^4.2.4",
+    "eslint": "^5.5.0",
+    "eslint-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}

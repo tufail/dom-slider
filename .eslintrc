@@ -1,0 +1,20 @@
+{
+  "parser": 'babel-eslint',
+  "extends": "eslint:recommended",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "off",
+    "strict": ["error", "global"],
+    "curly": "warn",
+    "no-fallthrough": 0
+  },
+  "globals": {"Promise": true}
+}
