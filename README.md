@@ -1,2 +1,2 @@
-# es-slider
-es slider is pure javascript slider with responsive options
+# domslider
+domSlider is pure javascript slider with responsive options
